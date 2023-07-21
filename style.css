@@ -42,22 +42,22 @@
     align-items: center;
     gap: 58px;
 }
-.left
+.bottom-nav .left
 {
     width: 450px;
     
 }
-.left >p{
+.bottom-nav .left >p{
     color:#e5e7ebbd;
     font-size: 18px;
     margin-top: 8px;
 }
-.left > h1{
+.bottom-nav .left > h1{
     color: #F9FAF8;
     font-weight: bolder;
     font-size: 48px;
 }
-.left > button {
+.bottom-nav .left > button {
     background-color: #3882F6;
     padding: 12px;
     color: #F9FAF8;
@@ -70,7 +70,7 @@
     border: none;
     margin-top: 12px;
 }
-.right{
+.bottom-nav .right{
     width: 550px;
     height: 250px;
     background-color: gray;
@@ -107,7 +107,7 @@
     font-weight: bolder;
     color:#1F2937;
 }
-.element-wrapper p {
+.element-wrapper > p {
     text-align: center;
     color:#858b97;
     padding: 10px 0;
@@ -136,4 +136,53 @@
     font-weight: bolder;
     text-align: end;
     font-size: 22px;
+}
+.footer-top
+{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-box
+{
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 12px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.flexer{
+    display: flex;
+    gap: 136px;
+}
+.flexer .right button {
+    background-color: #3882F6;
+    padding: 12px;
+    color: #F9FAF8;
+    font-size: 16px;
+    
+    padding: 10px 40px;  
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    border: 2px solid white;
+}
+.footer
+{
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button
+{
+    cursor: pointer;
 }
